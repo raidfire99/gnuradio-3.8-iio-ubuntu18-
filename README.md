@@ -18,6 +18,7 @@ Wait! pybombs builds all components from source this takes time (quad core with 
 ------------------------------------------------------------------------------------------------------------------------------
 
 RUNNING GNURADIO
+
 If you used the standard script enter:
 gnuradio-companion
 
