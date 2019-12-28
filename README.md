@@ -29,7 +29,7 @@ To get and use the script you need to run 4 simple commands:
 *sudo ./gr38_iio_pybombs.sh*
 
 
-enter password if prompted running the script as sudo (as above) should supress any further prompts.
+enter password to run as sudo, the default timeout for sudo is 15 minutes so after the gnuradio build has completed you will be reprompted for your password at the point of gr-iio build and install.
 
 If you see a message asing if you would like to restart services during install select yes.
 
