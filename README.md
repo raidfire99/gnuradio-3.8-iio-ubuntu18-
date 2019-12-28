@@ -19,9 +19,13 @@ To get and use the script you need to run 4 simple commands:
 
 
 *git clone https://github.com/raidfire99/gnuradio-3.8-iio-ubuntu18-.git*
+
 *cd gnuradio-3.8-iio-ubuntu18-*
+
 *sudo chmod 775 gr38_iio_pybombs.sh*
+
 *sudo ./gr38_iio_pybombs.sh*
+
 
 enter password if prompted running the script as sudo (as above) should supress any further prompts.
 
