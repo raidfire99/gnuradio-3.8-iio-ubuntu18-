@@ -61,7 +61,7 @@ install pip3
 
 install pybombs
 
-download source, build and gnuradio 3.8
+download source, build and install gnuradio 3.8
 
 download source, build and install libiio, libad9361, gr-iio gnuradio blocks
 
