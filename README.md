@@ -27,9 +27,9 @@ make the script executable with:
 sudo chmod 775 gr38_iio_pybombs.sh
 -
 execute the script with:
-
-sudo ./gr38_iio_pybombs.sh
 -
+sudo ./gr38_iio_pybombs.sh
+
 enter password if prompted running the script as sudo (as above) should supress any further prompts.
 
 
