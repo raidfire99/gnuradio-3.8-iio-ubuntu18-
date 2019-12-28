@@ -1,17 +1,34 @@
-# gnuradio-3.8-iio-ubuntu18-
-Gnuradio 3.8 and gr-iio binary build for ubuntu 18+
 
-Install dependancies with:
+# gnuradio-3.8-iio-ubuntu18.04 Build Script
+This is a build script to install Gnuradio 3.8 with GR_IIO and all dependancies on Ubuntu 18.04 using the pybombs method
 
-sudo apt install git cmake g++ libboost-all-dev libgmp-dev swig python3-numpy python3-mako python3-sphinx python3-lxml doxygen libfftw3-dev libcomedi-dev libsdl1.2-dev libgsl-dev libqwt-qt5-dev libqt5opengl5-dev python3-pyqt5 liblog4cpp5-dev libzmq3-dev python3-yaml python3-click python3-click-plugins python3-zmq
+For the documentation we will assume this will be your only gnuradio installation, if you have a binary version already installed please use the gr38_iio_pybombs_noenvset.sh script this will build 3.8 with iio but skip the step to link gnuradio-companion command to the new install, the command will open your current version still, see below for how to run new version.
 
-##git clone https://github.com/raidfire99/gnuradio-3.8-iio-ubuntu18-.git
-wget http://
-unzip ******* -d (folder name of your choice)
-run the following command 
+USAGE:
+download the script gr38_iio_pybombs.sh
 
-sudo source ~/{base_folder}/setup_env.sh
+make the script executable with:
+sudo chmod 775 gr38_iio_pybombs.sh
 
-note: this archive includes all source built with pybombs, the total size is 6Gb so 12 Gb free disk space will be required to 
- 
+execute the script with:
+./gr38_iio_pybombs.sh
+
+Wait! pybombs builds all components from source this takes time (quad core with 8gb approx 1hr), build requires 10GB of space but once built you can delete the 'src; directory.
+
+------------------------------------------------------------------------------------------------------------------------------
+
+RUNNING GNURADIO
+If you used the standard script enter:
+gnuradio-companion
+
+if you used the gr38_iio_pybombs_noenvset.sh, enter:
+pybombs run gnuradio-compainion
+
+------------------------------------------------------------------------------------------------------------------------------
+OPTIONAL 
+
+Default Install Directory (prefix) will be home/your_username/gnuradio if you with to change it edit the following line in gr38_iio_pybombs.sh
+
+pybombs prefix init ~/gnuradio-R gnuradio-default
+pybombs prefix init ~/{installation_folder} -R gnuradio-default
 
