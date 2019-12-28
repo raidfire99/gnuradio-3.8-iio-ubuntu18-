@@ -4,6 +4,8 @@ This is a build script to install Gnuradio 3.8 with GR_IIO and all dependancies 
 
 For the documentation we will assume this will be your only gnuradio installation, if you have a binary version already installed please use the gr38_iio_pybombs_noenvset.sh script this will build 3.8 with iio but skip the step to link gnuradio-companion command to the new install, the command will open your current version still, see below for how to run new version.
 
+If you are running a fresh WLS installation you can run the gr38_iio_pybombs_wls.sh script this will install all of the above and a graphical environment, you will also need to install ximg for windows for this to work.
+
 Tested and working on fresh hard drive install, WLS and oracle virtual box.
 
 
