@@ -26,9 +26,11 @@ Wait! pybombs builds all components from source this takes time (quad core with 
 RUNNING GNURADIO
 
 If you used the standard script enter:
+
 gnuradio-companion
 
 if you used the gr38_iio_pybombs_noenvset.sh, enter:
+
 pybombs run gnuradio-compainion
 
 ------------------------------------------------------------------------------------------------------------------------------
