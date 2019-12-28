@@ -4,13 +4,19 @@ This is a build script to install Gnuradio 3.8 with GR_IIO and all dependancies 
 
 For the documentation we will assume this will be your only gnuradio installation, if you have a binary version already installed please use the gr38_iio_pybombs_noenvset.sh script this will build 3.8 with iio but skip the step to link gnuradio-companion command to the new install, the command will open your current version still, see below for how to run new version.
 
-This script can be run on a fresh install with no dependancies. GIT will be installed by default as the first task.
+Tested and working on fresh hard drive install, WLS and oracle virtual box.
+
+
 
 -----------------------------------------------------------------------------------------------------------------------------
 
 USAGE:
 -
-download the script gr38_iio_pybombs.sh
+The only prerequisite for this script is GIT if you dont have it run:
+sudo apt install git
+
+
+get the scripts gr38_iio_pybombs.sh
 
 make the script executable with:
 sudo chmod 775 gr38_iio_pybombs.sh
@@ -53,11 +59,14 @@ pybombs prefix init ~/{installation_folder} -R gnuradio-default
  RUNBOOK - The script performs the following actions:
 -
 
-Install GIT
+Update apt repositories
+
 
 install python 3.6
 
 install pip3
+
+ensure python and pip3 are the versions we need fully patched (20 mins)
 
 install pybombs
 
