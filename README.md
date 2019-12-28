@@ -13,23 +13,15 @@ Tested and working on fresh hard drive install, WLS and oracle virtual box.
 USAGE:
 -
 The only prerequisite for this script is GIT if you dont have it run:
-sudo apt install git
+sudo apt install git.
+
+To get and use the script you need to run 4 simple commands:
 
 
-get the scripts:
--
-git clone https://github.com/raidfire99/gnuradio-3.8-iio-ubuntu18-.git
--
-cd gnuradio-3.8-iio-ubuntu18-
--
-
-make the script executable with:
-
-sudo chmod 775 gr38_iio_pybombs.sh
--
-execute the script with:
--
-sudo ./gr38_iio_pybombs.sh
+*git clone https://github.com/raidfire99/gnuradio-3.8-iio-ubuntu18-.git*
+*cd gnuradio-3.8-iio-ubuntu18-*
+*sudo chmod 775 gr38_iio_pybombs.sh*
+*sudo ./gr38_iio_pybombs.sh*
 
 enter password if prompted running the script as sudo (as above) should supress any further prompts.
 
