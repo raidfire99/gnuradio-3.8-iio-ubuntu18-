@@ -21,9 +21,9 @@ Tested and working on fresh hard drive install, WLS and oracle virtual box.
 USAGE:
 -
 The only prerequisite for this script is GIT if you dont have it run:
-sudo apt install git.
+*sudo apt install git*
 
-To get and use the script you need to run 4 simple commands:
+To get and use the script you need to run 4 simple commands, (edit filnames if using _nosetenv or wls versions):
 
 
 *git clone https://github.com/raidfire99/gnuradio-3.8-iio-ubuntu18-.git*
@@ -51,11 +51,14 @@ RUNNING GNURADIO
 
 If you used the standard script enter:
 
-gnuradio-companion
+*gnuradio-companion*
 
 if you used the gr38_iio_pybombs_noenvset.sh, enter:
 
-pybombs run gnuradio-compainion
+*pybombs run gnuradio-compainion*
+
+if *gnuradio-companion* fails run the following command and try again, if all esle fail;s the line above with the full pybombs command will always work.
+*source ~/gnuradio/setup_env.sh*
 
 ------------------------------------------------------------------------------------------------------------------------------
 OPTIONAL 
