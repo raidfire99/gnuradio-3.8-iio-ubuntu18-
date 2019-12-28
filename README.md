@@ -85,3 +85,9 @@ download source, build and install gnuradio 3.8 (1 hour)
 download source, build and install libiio, libad9361, gr-iio gnuradio blocks (10 mins)
 
 map the gnuradio-command to the new pybombs install with setenv
+
+WLS version only: 
+
+install xorg (10 mins)
+
+add  display export to .bashrc 
