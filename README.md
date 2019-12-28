@@ -57,7 +57,8 @@ if you used the gr38_iio_pybombs_noenvset.sh, enter:
 
 *pybombs run gnuradio-compainion*
 
-if *gnuradio-companion* fails run the following command and try again, if all esle fail;s the line above with the full pybombs command will always work.
+if *gnuradio-companion* fails run the following command and try again, if all else fails the line above with the full pybombs command will always work.
+
 *source ~/gnuradio/setup_env.sh*
 
 ------------------------------------------------------------------------------------------------------------------------------
