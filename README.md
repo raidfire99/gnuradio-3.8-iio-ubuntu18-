@@ -54,9 +54,15 @@ pybombs prefix init ~/{installation_folder} -R gnuradio-default
 -
 
 Install GIT
+
 install python 3.6
+
 install pip3
+
 install pybombs
+
 download source, build and gnuradio 3.8
+
 download source, build and install libiio, libad9361, gr-iio gnuradio blocks
+
 map the gnuradio-command to the new pybombs install with setenv
