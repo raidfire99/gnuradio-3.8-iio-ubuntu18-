@@ -17,6 +17,7 @@ sudo chmod 775 gr38_iio_pybombs.sh
 
 execute the script with:
 sudo ./gr38_iio_pybombs.sh
+enter password if prompted running the script as sudo (as above) should supress any further prompts.
 
 
 Wait! pybombs builds all components from source this takes time (quad core with 8gb approx 1hr), build requires 10GB of space but once built you can delete the 'src; directory.
