@@ -67,6 +67,8 @@ pybombs prefix init ~/{installation_folder} -R gnuradio-default
  RUNBOOK - The script performs the following actions:
 -
 
+times are approximate based on quad core 3.5ghz with 8gb ram and ssd drive
+
 Update apt repositories
 
 
@@ -78,8 +80,8 @@ ensure python and pip3 are the versions we need fully patched (20 mins)
 
 install pybombs
 
-download source, build and install gnuradio 3.8
+download source, build and install gnuradio 3.8 (1 hour)
 
-download source, build and install libiio, libad9361, gr-iio gnuradio blocks
+download source, build and install libiio, libad9361, gr-iio gnuradio blocks (10 mins)
 
 map the gnuradio-command to the new pybombs install with setenv
