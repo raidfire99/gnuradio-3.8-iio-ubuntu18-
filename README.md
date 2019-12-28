@@ -86,7 +86,7 @@ install python 3.6
 
 install pip3
 
-ensure python and pip3 are the versions we need fully patched (20 mins)
+install pybombs (5 mins)
 
 install pybombs
 
