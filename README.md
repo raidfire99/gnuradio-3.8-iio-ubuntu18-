@@ -29,6 +29,8 @@ To get and use the script you need to run 4 simple commands:
 
 enter password if prompted running the script as sudo (as above) should supress any further prompts.
 
+If you see a message asing if you would like to restart services during install select yes.
+
 
 Wait! pybombs builds all components from source this takes time (quad core with 8gb approx 1hr), build requires 10GB of space but once built you can delete the 'src; directory.
 
