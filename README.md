@@ -21,8 +21,9 @@ get the scripts:
 git clone https://github.com/raidfire99/gnuradio-3.8-iio-ubuntu18-.git
 -
 cd gnuradio-3.8-iio-ubuntu18-
+
 make the script executable with:
--
+
 sudo chmod 775 gr38_iio_pybombs.sh
 -
 execute the script with:
