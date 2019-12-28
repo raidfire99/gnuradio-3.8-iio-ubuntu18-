@@ -4,7 +4,13 @@ This is a build script to install Gnuradio 3.8 with GR_IIO and all dependancies 
 
 For the documentation we will assume this will be your only gnuradio installation, if you have a binary version already installed please use the gr38_iio_pybombs_noenvset.sh script this will build 3.8 with iio but skip the step to link gnuradio-companion command to the new install, the command will open your current version still, see below for how to run new version.
 
-If you are running a fresh WLS installation you can run the gr38_iio_pybombs_wls.sh script this will install all of the above and a graphical environment, you will also need to install ximg for windows for this to work.
+The git repositry contains 3 scripts, you only need to choose 1, if you are totally unfamiliar with gnuradio, pybombs, building and installing and just want to get gnuradio 3.8 running with an adalm pluto or any other iio based device choose option 1 and go make a big pot of coffee!
+
+- gr38_iio_pybombs.sh - use this on a fresh ububtu installation, works on any host, installs gr3.8, gr-iio, sets environmental variables.
+-gr38_iio_pybombs_nosetenv.sh - use this on ubuntu 18.04 with an existing gnuradio installation of any version, if your existing version is installed to home/username/gnuradio, see optional section below before proceeding.
+
+-gr38_iio_pybombs_wls.sh - use this on windows WLS, installs all gr components as above plus graphical environment, requires ximg server installing on the windows host, WLS must be closed and reopened (reboot in wls land) before graphical components will work, trying to run gnuradio before the reboot will result in server refused connection errors.
+
 
 Tested and working on fresh hard drive install, WLS and oracle virtual box.
 
