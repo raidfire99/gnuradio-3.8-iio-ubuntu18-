@@ -24,10 +24,11 @@ cd gnuradio-3.8-iio-ubuntu18-
 make the script executable with:
 -
 sudo chmod 775 gr38_iio_pybombs.sh
-
-execute the script with:
 -
+execute the script with:
+
 sudo ./gr38_iio_pybombs.sh
+-
 enter password if prompted running the script as sudo (as above) should supress any further prompts.
 
 
