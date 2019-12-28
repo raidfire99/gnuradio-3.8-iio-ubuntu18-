@@ -36,7 +36,7 @@ pybombs run gnuradio-compainion
 ------------------------------------------------------------------------------------------------------------------------------
 OPTIONAL 
 
-Default Install Directory (prefix) will be home/your_username/gnuradio if you with to change it edit the following line in gr38_iio_pybombs.sh
+Default Install Directory (prefix) will be home/your_username/gnuradio if you wish to change it edit the following line in gr38_iio_pybombs.sh
 
 pybombs prefix init ~/gnuradio-R gnuradio-default
 
