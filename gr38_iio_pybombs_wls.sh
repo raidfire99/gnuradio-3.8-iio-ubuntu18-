@@ -7,5 +7,6 @@ pybombs recipes add-defaults
 pybombs prefix init ~/gnuradio -R gnuradio-default
 pybombs install gr-iio
 source ~/gnuradio/setup_env.sh
-sudo apt install xorg
+cd ~
+sudo apt install xorg -y
 echo export DISPLAY=localhost:0.0 >> .bashrc
