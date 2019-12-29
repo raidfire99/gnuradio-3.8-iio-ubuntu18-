@@ -10,7 +10,7 @@ The git repositry contains 3 scripts, you only need to choose 1, if you are tota
 - gr38_iio_pybombs_wls.sh - use this on windows WLS, installs all gr components as above plus graphical environment, requires ximg server installing on the windows host, WLS must be closed and reopened (reboot in wls land) before graphical components will work, trying to run gnuradio before the reboot will result in server refused connection errors.
 
 
-Tested and working on fresh hard drive install, WLS and oracle virtual box.
+Tested and working on fresh hard drive install, WLS and oracle virtual box. No issues side by side with 3.7 from apt repository with main branch iio, main branch and 3.8 will live togeather happily if 3.8 is installed this way.
 
 
 
