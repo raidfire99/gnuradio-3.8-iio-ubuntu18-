@@ -21,7 +21,7 @@ USAGE:
 The only prerequisite for this script is GIT if you dont have it run:
 *sudo apt install git*
 
-To get and use the script you need to run 4 simple commands, (edit filnames if using _nosetenv or wls versions):
+To get and use the script you need to run 4 simple commands, (edit filenames if using _nosetenv or wls versions):
 
 
 *git clone https://github.com/raidfire99/gnuradio-3.8-iio-ubuntu18-.git*
