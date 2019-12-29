@@ -33,6 +33,10 @@ To get and use the script you need to run 4 simple commands, (edit filenames if 
 
 *sudo ./gr38_iio_pybombs.sh*
 
+- NB final command in the script is failing some of the time - if after script completion you enter the 'gnuradio-companion' command and you get an error telling you it's not installed, run the line below it fixes the problem 100% of the time, then run the command again,
+
+*source ~/gnuradio/setup_env.sh*
+
 
 enter password to run as sudo, the default timeout for sudo is 15 minutes so after the gnuradio build has completed you will be reprompted for your password at the point of gr-iio build and install.
 
