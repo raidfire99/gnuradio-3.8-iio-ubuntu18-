@@ -2,8 +2,6 @@
 # gnuradio-3.8-iio-ubuntu18.04 Build Script
 This is a build script to install Gnuradio 3.8 with GR_IIO and all dependancies on Ubuntu 18.04 using the pybombs method
 
-For the documentation we will assume this will be your only gnuradio installation, if you have a binary version already installed please use the gr38_iio_pybombs_noenvset.sh script this will build 3.8 with iio but skip the step to link gnuradio-companion command to the new install, the command will open your current version still, see below for how to run new version.
-
 The git repositry contains 3 scripts, you only need to choose 1, if you are totally unfamiliar with gnuradio, pybombs, building and installing and just want to get gnuradio 3.8 running with an adalm pluto or any other iio based device choose option 1 and go make a big pot of coffee!
 
 - gr38_iio_pybombs.sh - use this on a fresh ububtu installation, works on any host, installs gr3.8, gr-iio, sets environmental variables.
