@@ -9,3 +9,4 @@ pybombs recipes add-defaults
 pybombs prefix init ~/gnuradio -R gnuradio-default
 pybombs install gr-iio
 source ~/gnuradio/setup_env.sh
+echo source ~/gnuradio/setup_env.sh >> .bashrc
