@@ -10,3 +10,13 @@ pybombs prefix init ~/gnuradio -R gnuradio-default
 pybombs install gr-iio
 source ~/gnuradio/setup_env.sh
 sudo echo source ~/gnuradio/setup_env.sh >> .bashrc
+cd ~
+sudo git clone https://github.com/mhostetter/gr-adsb
+cd gr-adsb
+sudo mkdir build
+cd build/
+sudo cmake -DCMAKE_INSTALL_PREFIX=~/gnuradio ../
+sudo make
+sudo make install
+sudo ldconfig
+cd ~
